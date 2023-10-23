@@ -13,7 +13,8 @@ Use cases are an effective technique in system design because they offer an orga
 
 __2.2 Use Case Model__
 
-![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/4c666bf1-b94c-4d79-b27f-df74f1e29399)
+![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/9409bc95-265a-4a0e-9848-8637c0fbbe25)
+
 
 
 • Main Use Cases: Course Enrollment, View Grades, Upload Course Material, Manage Grades.
