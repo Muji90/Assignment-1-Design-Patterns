@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/gPSRd_yy)
-# SOFE3650F23-Project Deliverable 1 – Requirements Analysis
+# <ins>SOFE3650F23-Project Deliverable 1 – Requirements Analysis</ins>
 
-# 1.0 Introduction
+# <ins> Introduction</ins>
 
 The Requirements Analysis phase is a pivotal step in the software development lifecycle, serving as the foundation upon which the entire project is built. Within the context of the Attribute Driven Design (ADD) process, this phase is even more crucial. It guarantees that the architecture of the system is customized to satisfy the unique requirements and limitations mentioned in the specifications. We may create well-informed architectural decisions that are in line with the objectives of the project and the expectations of stakeholders by carefully examining the requirements.
 
@@ -11,11 +11,9 @@ __2.1 Overview__
 
 Use cases are an effective technique in system design because they offer an organized method of capturing the many ways that different actors engage with the system. From the viewpoint of the user, they provide an understandable and succinct depiction of the system's functionality. We can guarantee that the system is made to meet the real demands of its users and is both functional and user-friendly by establishing use cases.
 
-__2.2 Use Case Model__
+__Use Case Model__
 
 ![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/9409bc95-265a-4a0e-9848-8637c0fbbe25)
-
-
 
 • Main Use Cases: Course Enrollment, View Grades, Upload Course Material, Manage Grades.
 
