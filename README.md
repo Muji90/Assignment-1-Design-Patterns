@@ -23,95 +23,19 @@ __Use Case Model__
 
 __2.3 Detailed Use Cases__
 
-__Use Case 1: Course Enrollment__
+| Left-aligned | Center-aligned | Right-aligned | git diff     | git diff       | git diff      | git diff      |
+| :---         |     :---:      |          ---: | :---         |     :---:      |          ---: | :---         |
+| git status   | git status     | git status    | :---         |     :---:      |          ---: | :---         |
+| git diff     | git diff       | git diff      | :---         |     :---:      |          ---: | :---         |
 
-• Name: Course Enrollment
 
-• Actors: Students, Administrators
 
-• Preconditions: The student is included in the database. Enrollment in the course is open.
 
-• Post conditions: The student is enrolled in the desired course.
 
-• Main Flow:
 
-1. The student logs into the CMS.
 
-2. The student browses available courses.
 
-3. The student selects a course for enrollment.
 
-4. The system confirms the enrollment.
-
-• Alternative Flows: If the course is full, the system notifies the student.
-
-• Exceptions: If there's a system error, the enrollment process is halted.
-
-__Use Case 2: View Grades__
-
-• Name: View Grades
-
-• Actors: Students
-
-• Preconditions: The student has completed courses with graded assignments/exams.
-
-• Post conditions: The student views their grades for selected courses.
-
-• Main Flow:
-
-1. The student logs into the CMS.
-
-2. The student navigates to the "Grades" section.
-
-3. The system displays the grades for the student's courses.
-
-• Exceptions: If there's a system error, the grade viewing process is halted.
-
-__Use Case 3: Upload Course Material__
-
-• Name: Upload Course Material
-
-• Actors: Lecturers
-
-• Preconditions: The lecturer is assigned to a course.
-
-• Post conditions: Course material is uploaded and available for students.
-
-• Main Flow:
-
-1. The lecturer logs into the CMS.
-
-2. The lecturer navigates to their assigned course.
-
-3. The lecturer selects the option to upload course material.
-
-4. The system confirms the successful upload.
-
-• Exceptions: If the file size exceeds the limit, the system notifies the lecturer.
-
-__Use Case 4: Manage Grades__
-
-• Name: Manage Grades
-
-• Actors: Lecturers
-
-• Preconditions: Students have submitted assignments/exams.
-
-• Post conditions: Grades are updated in the system.
-
-• Main Flow:
-
-1. The lecturer logs into the CMS.
-
-2. The lecturer navigates to the "Grades" section of their course.
-
-3. The lecturer updates grades for assignments/exams.
-
-4. The system confirms the grade updates.
-
-• Alternative Flows: The lecturer can choose to calculate the final grade based on grading policy.
-
-• Exceptions: If there's a system error, the grade management process is halted.
 
 # 3.0 Quality Attributes for the Application
 
