@@ -25,7 +25,10 @@ __2.3 Detailed Use Cases__
 
 | Left-aligned | Center-aligned | Right-aligned | git diff     | git diff       | git diff      | git diff      |
 | :---         |     :---:      |          ---: | :---         |     :---:      |          ---: | :---         |
-| git status   | git status     | git status    | :---         |     :---:      |          ---: | :---         |
+| Use Case 1: Course Enrollment   | Course Enrollment     | Students, Administrators    | The student is included in the database. Enrollment in the course is open         |     The student is enrolled in the desired course      |          1. The student logs into the CMS.
+2. The student browses available courses.
+3. The student selects a course for enrollment.
+4. The system confirms the enrollment. | If the course is full, the system notifies the student        |
 | git diff     | git diff       | git diff      | :---         |     :---:      |          ---: | :---         |
 
 
