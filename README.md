@@ -380,85 +380,67 @@ __3.2 List of Quality Attributes__
 
 2. __Rationale:__ Users should feel secure knowing that their academic and personal information is protected and out of the hands of unauthorized individuals.
 
-# 4.0 System Constraints for the Application
+# <ins> System Constraints for the Application</ins>
 
-__4.1 Overview__
+__<ins> Overview</ins>__
 
 The limitations or restrictions placed on a system's functionality and design are referred to as system constraints. These limitations may be the result of a number of factors, such as budgetary constraints, stakeholder demands, legal obligations, or technical limitations. It is essential to comprehend and deal with these limitations as they have a big impact on the system's overall architecture and design choices.
 
-__4.2 List of Constraints__
+__<ins> List of Constraints</ins>__
 
-1. Platform Independence: Users should be able to access the CMS from a variety of devices and operating systems without experiencing any compatibility problems if it is platform-independent.
+| Constraint  | Description |
+| ------------- | ------------- |
+| Platform Independence  | Users should be able to access the CMS from a variety of devices and operating systems without experiencing any compatibility problems if it is platform-independent  |
+| Data Storage  | The system has to have a strong database with a set storage limit because of the volume of course materials, student information, and grades  |
+| Security Protocols  | Strict security guidelines must be followed by the CMS to safeguard user data, particularly private and sensitive data like grades  |
+| Integration  | The system has to support common data interchange formats and protocols in order to be compatible with other university systems  |
+| Regulatory Compliance  | In order to guarantee that user data is treated properly and ethically, the CMS must abide by legislation pertaining to data protection and education  |
+| Accessibility  | The system must to comply with online accessibility guidelines and be usable by those with impairments  |
+| User Interface Consistency  | To guarantee a smooth user experience, the CMS should maintain a consistent user interface throughout all modules  |
+| Scalability  | The system should be able to scale as needed without performance degrading as user numbers and data volumes rise  |
+| Network Reliability  | In order to guarantee that users may access the system constantly, the CMS must rely on a dependable network infrastructure  |
+| Backup and Recovery  | The system data should be regularly backed up, and a reliable recovery method should be in place in case of data loss  |
+| Performance  | The system should be optimised for speed so that users may quickly get the data they require  |
+| Maintenance and Support  | To ensure that any problems are quickly fixed and the system is maintained current, the CMS should have a dedicated team for maintenance and support  |
 
-2. Data Storage: The system has to have a strong database with a set storage limit because of the volume of course materials, student information, and grades.
+# <ins> Architectural Concerns</ins>
 
-3. Security Protocols: Strict security guidelines must be followed by the CMS to safeguard user data, particularly private and sensitive data like grades.
-
-4. Integration: The system has to support common data interchange formats and protocols in order to be compatible with other university systems.
-
-5. Regulatory Compliance: In order to guarantee that user data is treated properly and ethically, the CMS must abide by legislation pertaining to data protection and education.
-
-6. Accessibility: The system must to comply with online accessibility guidelines and be usable by those with impairments.
-
-# 5.0 Architectural Concerns
-
-__5.1 Overview__
+__<ins> Overview</ins>__
 
 Architectural concerns encompass the various considerations and challenges that arise during the design and implementation of a system's architecture. These concerns can influence the system's structure, behavior, and evolution. Addressing these concerns is crucial to ensure that the system meets its functional requirements while also satisfying non-functional requirements like performance, security, and maintainability.
 
-__5.2 List of Architectural Concerns__
+__<ins> List of Architectural Concerns</ins>__
 
-1. __Name:__ Scalability
+| Name | Description | Implications |
+| :---         |     :---:      |   :---: |
+| Scalability   | The system's capacity to manage higher loads, such additional users or data input     | Whether there are more users, courses, or students at once, the architecture should be able to grow with them    |
+| Modularity     | Dividing the system up into separate parts or sections that are capable of working alone       | Modular designs facilitate updates and maintenance and guarantee that modifications to one element don't negatively impact other modules      |
+| Performance   | Making sure the system loads material quickly and satisfies user demands     | Poor performance may turn off users. Retrieving and processing data efficiently should be the top priority in the architecture    |
+| Security     | Safeguarding the system against hostile activity, data breaches, and unauthorized access      | A breach may jeopardize user confidence and result in legal action. The design should incorporate security features like authentication and encryption      |
+| Maintainability   | The ease with which the system can be updated, debugged, or enhanced     | A system that's hard to maintain can become obsolete quickly. The architecture should be designed with future updates in mind    |
+| Integration     | The system's ability to seamlessly connect and exchange data with other systems       | Poor integration can lead to data silos and inefficiencies. The architecture should support standard integration protocols      |
+| Usability   | The simplicity with which users may use the technology to accomplish their objectives     | A system that is difficult to use might frustrate consumers and even drive them away by producing a bad user experience    |
+| Accessibility     | Ability of those with impairments, especially those who depend on assistive technology, to utilize the system       | If accessibility requirements are not followed, there may be legal repercussions and a large section of the user base would be excluded      |
+| Reliability   | The system's capacity to operate as designed for a predetermined amount of time without interruption     | Systems that are unreliable might experience downtime, lose data, and lose user confidence    |
+| Flexibility     | The system's capacity to adjust to shifting conditions or settings       | Lack of adaptability can cause a system to quickly become outdated or cost a lot of money to upgrade      |
+| Interoperability   | The system's compatibility with other systems, despite the fact that they employ various protocols or data formats     | Data silos, inefficiencies, and a lack of communication across various systems can all be consequences of poor interoperability    |
+| Compliance     | The system's compliance with pertinent laws, rules, and guidelines       | Infractions may result in fines, harm to one's reputation, and even possible injury to users      |
 
-• __Description:__ The system's capacity to manage higher loads, such additional users or data input.
+# <ins> Business Case</ins>
 
-• __Implications:__ Whether there are more users, courses, or students at once, the architecture should be able to grow with them.
-
-3. __Name:__ Modularity
-
-• __Description:__ Dividing the system up into separate parts or sections that are capable of working alone.
-
-• __Implications:__ Modular designs facilitate updates and maintenance and guarantee that modifications to one element don't negatively impact other modules.
-
-4. __Name:__ Performance
-
-• __Description:__ making sure the system loads material quickly and satisfies user demands.
-
-• __Implications:__ Poor performance may turn off users. Retrieving and processing data efficiently should be the top priority in the architecture.
-
-5. __Name:__ Security
-
-• __Description:__ Ssafeguarding the system against hostile activity, data breaches, and unauthorized access.
-
-• __Implications:__ A breach may jeopardize user confidence and result in legal action. The design should incorporate security features like authentication and encryption.
-
-6. __Name:__ Maintainability
-
-• __Description:__ The ease with which the system can be updated, debugged, or enhanced.
-
-• __Implications:__ A system that's hard to maintain can become obsolete quickly. The architecture should be designed with future updates in mind.
-
-7. __Name:__ Integration
-
-• __Description:__ The system's ability to seamlessly connect and exchange data with other systems.
-
-• __Implications:__ Poor integration can lead to data silos and inefficiencies. The architecture should support standard integration protocols.
-
-# 6.0 Business Case
-
-__6.1 Overview__
+__<ins> Overview</ins>__
 
 A business case provides a justification for a proposed project based on its expected commercial benefits. It serves as a bridge between the technical and business aspects of a project, ensuring that the proposed solution aligns with organizational goals and delivers value.
 
-__6.2 Problem Statement__
+__<ins> Problem Statement</ins>__
 
 Modern educational institutions handle vast amounts of data, from course materials to student grades. Managing this data efficiently, ensuring its accessibility while maintaining security, and providing an intuitive interface for both educators and students have become pressing challenges.
 
-__6.3 Proposed Solution__
+__<ins> Proposed Solution</ins>__
 
 A centralized platform is provided by the Course Management System (CMS) for lecturers to post course materials, handle grades, and interact with students. Students get access to course materials, may register for classes, and can see their grades. To ensure efficient academic operations, administrators can supervise the design of courses and manage the information of lecturers and students.
 
-__6.4 Benefits__
+__<ins> Benefits</ins>__
 
 • __Efficiency:__ Having all course administration in one place cuts down on duplication and simplifies the academic process.
 
@@ -480,7 +462,7 @@ __6.4 Benefits__
 
 • __Compliance:__ Ensures compliance with educational regulations and standards.
 
-__6.5 Risks and Challenges__
+__<ins> Risks and Challenges</ins>__
 
 • __Data Breaches:__ Like all online systems, there's a risk of data breaches. This can be mitigated with robust security protocols and regular security audits.
 
