@@ -316,7 +316,7 @@ __3.2 List of Quality Attributes__
 
 
 | Name | Description | Rationale |
-| :---         |     :---:      |          ---: |
+| :---         |     :---:      |   :---:    |
 | Performance   |  The system's ability to respond quickly to user requests   | To ensure users can access course information and perform tasks without delays    |
 | Security     | Protecting user data and ensuring unauthorized access is prevented       | To safeguard sensitive student and course information and maintain user trust.      |
 | Usability   | The system's interface is intuitive and user-friendly     | To ensure users can easily navigate and utilize the system without facing challenges    |
