@@ -204,6 +204,16 @@ __6.4 Benefits__
 
 • __Integration:__ Consistent data and easy integration with other university systems.
 
+• __Improved Communication:__ Facilitates better communication between students and lecturers, enhancing the learning experience.
+
+• __Enhanced Learning Experience:__ Provides a platform for interactive learning materials and online assessments, catering to different learning styles.
+
+• __Cost-Effective:__ Reduces the cost of printing and distributing physical course materials.
+
+• __Data-Driven Decisions:__ Allows for the collection and analysis of data to make informed decisions about course design and delivery.
+
+• __Compliance:__ Ensures compliance with educational regulations and standards.
+
 __6.5 Risks and Challenges__
 
 • __Data Breaches:__ Like all online systems, there's a risk of data breaches. This can be mitigated with robust security protocols and regular security audits.
@@ -214,6 +224,18 @@ __6.5 Risks and Challenges__
 
 • __Integration Issues:__ Integrating with other university systems might pose challenges. Adopting standard integration protocols and thorough testing can address this.
 
+• __Incomplete Adoption:__ There's a risk that not all features of the CMS will be utilized, reducing its effectiveness. This can be mitigated by providing comprehensive training and support.
+
+• __Technical Problems:__ The CMS could experience malfunctions or other technical problems that limit its functioning. This can be handled with regular upgrades and a committed support staff.
+
+• __Limited Customization:__ Users may become dissatisfied if the CMS is unable to meet their unique requirements. Offering customisation alternatives can lessen this danger.
+
+• __Legal and Ethical Concerns:__ The CMS must abide by ethical norms and data protection rules, or it risked legal repercussions.
+
+• __Internet dependence:__  The CMS depends on internet connectivity, which could be problematic in remote or sparsely populated locations.
+
+• __Cultural and linguistic barriers:__ The CMS might not be inclusive due to the cultural and linguistic diversity of its users.
+
 # 7.0 Conclusion
 
-The Requirements Analysis phase is crucial in ensuring that the proposed Course Management System aligns with the needs of the stakeholders and addresses the challenges faced by modern educational institutions. By understanding the use cases, quality attributes, constraints, and architectural concerns, we lay a solid foundation for the subsequent design and implementation phases. The business case further underscores the commercial and operational value of the CMS, making a compelling argument for its adoption.
+In order to ensure that the proposed Course Management System meets the demands of the stakeholders and tackles the problems that contemporary educational institutions are facing, it is essential to complete the Requirements Analysis phase. We establish a strong basis for the succeeding design and implementation phases by having a thorough understanding of the use cases, quality attributes, limitations, and architectural considerations. The business case makes a strong case for the adoption of the CMS by emphasizing further the commercial and operational value of the system.
