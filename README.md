@@ -48,7 +48,7 @@ __Alternative Flows:__ If the course is full, the system notifies the student.
 __Exceptions:__ If there's a system error, the enrollment process is halted.
 
 
-__<ins> UC 2: View Grades <</ins>>__
+__<ins> UC 2: View Grades </ins>__
 
 __• Name:__ View Grades
 
