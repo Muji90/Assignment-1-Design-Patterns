@@ -314,71 +314,21 @@ Quality attributes are the non-functional requirements of a system, defining how
 
 __3.2 List of Quality Attributes__
 
-• __Name:__ Performance
 
-1. __Description:__ The system's ability to respond quickly to user requests.
+| Name | Description | Rationale |
+| :---         |     :---:      |          ---: |
+| Performance   |  The system's ability to respond quickly to user requests   | To ensure users can access course information and perform tasks without delays    |
+| Security     | Protecting user data and ensuring unauthorized access is prevented       | To safeguard sensitive student and course information and maintain user trust.      |
+| Usability   | The system's interface is intuitive and user-friendly     | To ensure users can easily navigate and utilize the system without facing challenges    |
+| Availability     | Ensuring the system is accessible and operational when users need it       | Students, lecturers, and administrators rely on the CMS for various tasks. Downtime can disrupt academic processes and schedules      |
+| Scalability   | The system's ability to handle increased loads, whether more users, courses, or data entries     | As the institution grows and more students enroll, the CMS should be able to accommodate this growth without performance degradation    |
+| Interoperability     | The system's capability to interact and exchange data seamlessly with other university systems       | The CMS might need to integrate with other institutional systems like registration platforms, library systems, or payment gateways      |
+| Modifiability   | The ease with which the system can be modified to accommodate changes or additions     | Educational requirements and technologies evolve. The CMS should be adaptable to these changes without extensive overhauls    |
+| Reliability     | The system's ability to operate without failure under specified conditions       | Users should be able to trust that the CMS will function consistently, especially during critical periods like enrollment or exam grading      |
+| Portability   | The ease with which the system can be transferred from one environment to another    | If there's a need to migrate the CMS to a different server or platform, the process should be straightforward    |
+| Maintainability     | The architecture of the system should make it simple to update, repair bugs, and make enhancements without impairing its general operation       | Frequent maintenance keeps the CMS current and free of problems that might impair its functionality      |
+| Privacy  | Safeguarding the private data of educators, administrators, and students     | Users should feel secure knowing that their academic and personal information is protected and out of the hands of unauthorized individuals    |
 
-2. __Rationale__: To ensure users can access course information and perform tasks without delays.
-
-• __Name:__ Security
-
-1. __Description:__ Protecting user data and ensuring unauthorized access is prevented.
-
-2. __Rationale:__ To safeguard sensitive student and course information and maintain user trust.
-
-• __Name:__ Usability
-
-1. __Description:__ The system's interface is intuitive and user-friendly.
-
-2. __Rationale:__ To ensure users can easily navigate and utilize the system without facing challenges.
-
-• __Name:__ Availability
-
-1. __Description:__ Ensuring the system is accessible and operational when users need it.
-
-2. __Rationale:__ Students, lecturers, and administrators rely on the CMS for various tasks. Downtime can disrupt academic processes and schedules.
-
-• __Name:__ Scalability
-
-1. __Description:__ The system's ability to handle increased loads, whether more users, courses, or data entries.
-
-2. __Rationale:__ As the institution grows and more students enroll, the CMS should be able to accommodate this growth without performance degradation.
-
-• __Name:__ Interoperability
-
-1. __Description:__ The system's capability to interact and exchange data seamlessly with other university systems.
-
-2. __Rationale:__ The CMS might need to integrate with other institutional systems like registration platforms, library systems, or payment gateways.
-
-• __Name:__ Modifiability
-
-1. __Description:__ The ease with which the system can be modified to accommodate changes or additions.
-
-2. __Rationale:__ Educational requirements and technologies evolve. The CMS should be adaptable to these changes without extensive overhauls.
-
-• __Name:__ Reliability
-
-1. __Description:__ The system's ability to operate without failure under specified conditions.
-
-2. __Rationale:__ Users should be able to trust that the CMS will function consistently, especially during critical periods like enrollment or exam grading.
-
-• __Name:__ Portability
-
-1. __Description:__ The ease with which the system can be transferred from one environment to another.
-
-2. __Rationale:__ If there's a need to migrate the CMS to a different server or platform, the process should be straightforward.
-
-• __Name:__ Maintainability
-
-1. __Description:__ The architecture of the system should make it simple to update, repair bugs, and make enhancements without impairing its general operation.
-
-2. __Rationale:__ Frequent maintenance keeps the CMS current and free of problems that might impair its functionality.
-
-• __Name:__ Privacy
-
-1. __Description:__ Safeguarding the private data of educators, administrators, and students.
-
-2. __Rationale:__ Users should feel secure knowing that their academic and personal information is protected and out of the hands of unauthorized individuals.
 
 # <ins> System Constraints for the Application</ins>
 
