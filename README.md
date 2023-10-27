@@ -315,7 +315,7 @@ Quality attributes are the non-functional requirements of a system, defining how
 __3.2 List of Quality Attributes__
 
 
-| Name | Description | Rationale |
+| Name | Description | Rationale | Use case relation |
 | :---         |     :---:      |   :---:    |
 | Performance   |  The system's ability to respond quickly to user requests   | To ensure users can access course information and perform tasks without delays    |
 | Security     | Protecting user data and ensuring unauthorized access is prevented       | To safeguard sensitive student and course information and maintain user trust.      |
