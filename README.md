@@ -316,9 +316,9 @@ __3.2 List of Quality Attributes__
 
 
 | Name | Description | Rationale | Use case relation |
-| :---         |     :---:      |   :---:    |
-| Performance   |  The system's ability to respond quickly to user requests   | To ensure users can access course information and perform tasks without delays    |
-| Security     | Protecting user data and ensuring unauthorized access is prevented       | To safeguard sensitive student and course information and maintain user trust.      |
+| :---         |     :---:      |   :---:    |   :---:    |
+| Performance   |  The system's ability to respond quickly to user requests   | To ensure users can access course information and perform tasks without delays    |  All 12 Use cases |
+| Security     | Protecting user data and ensuring unauthorized access is prevented       | To safeguard sensitive student and course information and maintain user trust.      |  UC 1: Course Enrollment, UC 3: Upload Course Material, UC 4: Manage Grades, UC 5: Course Creation, UC 6: Student Profile Management, UC 7: Course Feedback and Evaluation, UC 8: News and Announcements Posting, UC 9: Course Deletion, UC 10: Manage Course Schedule, UC 11: Manage Team Members and UC 12: Password Reset Request |
 | Usability   | The system's interface is intuitive and user-friendly     | To ensure users can easily navigate and utilize the system without facing challenges    |
 | Availability     | Ensuring the system is accessible and operational when users need it       | Students, lecturers, and administrators rely on the CMS for various tasks. Downtime can disrupt academic processes and schedules      |
 | Scalability   | The system's ability to handle increased loads, whether more users, courses, or data entries     | As the institution grows and more students enroll, the CMS should be able to accommodate this growth without performance degradation    |
