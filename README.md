@@ -5,9 +5,9 @@
 
 The Requirements Analysis phase is a pivotal step in the software development lifecycle, serving as the foundation upon which the entire project is built. Within the context of the Attribute Driven Design (ADD) process, this phase is even more crucial. It guarantees that the architecture of the system is customized to satisfy the unique requirements and limitations mentioned in the specifications. We may create well-informed architectural decisions that are in line with the objectives of the project and the expectations of stakeholders by carefully examining the requirements.
 
-# 2.0 Use Case Models
+# Use Case Models
 
-__2.1 Overview__
+__<ins> Overview</ins>__
 
 Use cases are an effective technique in system design because they offer an organized method of capturing the many ways that different actors engage with the system. From the viewpoint of the user, they provide an understandable and succinct depiction of the system's functionality. We can guarantee that the system is made to meet the real demands of its users and is both functional and user-friendly by establishing use cases.
 
@@ -19,21 +19,33 @@ __Use Case Model__
 
 • Actors: Students, Lecturers, Administrators.
 
-• Interactions: Enrollment and grade viewing are available to students. Instructors have the ability to upload and manage course materials. Administrators are in charge of creating courses and maintaining professor data
+• Interactions: Interactions: Enrollment and grade viewing are available to students. Instructors have the ability to upload and manage course materials. Administrators are in charge of creating courses and maintaining professor data.
 
-__2.3 Detailed Use Cases__
+__<ins> Detailed Use Cases</ins>__
 
-| Left-aligned | Center-aligned | Right-aligned | git diff     | git diff       | git diff      | git diff      |
-| :---         |     :---:      |          ---: | :---         |     :---:      |          ---: | :---         |
-| Use Case 1: Course Enrollment   | Course Enrollment     | Students, Administrators    | The student is included in the database. Enrollment in the course is open         |     The student is enrolled in the desired course      |          1. The student logs into the CMS.
+__<ins> UC 1: Course Enrollment </ins>__
+
+__• Name:__ Course Enrollment
+
+__• Actors:__ Students, Administrators
+
+__• Preconditions:__ The student is included in the database. Enrollment in the course is open.
+
+__• Post conditions:__ The student is enrolled in the desired course.
+
+__Main Flow:__
+
+1. The student logs into the CMS.
+
 2. The student browses available courses.
+
 3. The student selects a course for enrollment.
-4. The system confirms the enrollment. | If the course is full, the system notifies the student        |
-| git diff     | git diff       | git diff      | :---         |     :---:      |          ---: | :---         |
 
+4. The system confirms the enrollment.
 
+__Alternative Flows:__ If the course is full, the system notifies the student.
 
-
+__Exceptions:__ If there's a system error, the enrollment process is halted.
 
 
 
