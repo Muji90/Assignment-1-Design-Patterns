@@ -48,7 +48,261 @@ __Alternative Flows:__ If the course is full, the system notifies the student.
 __Exceptions:__ If there's a system error, the enrollment process is halted.
 
 
+__<ins> UC 2: View Grades <</ins>>__
 
+__• Name:__ View Grades
+
+__• Actors:__ Students
+
+__• Preconditions:__ The student has completed courses with graded assignments/exams.
+
+__• Post conditions:__ The student views their grades for selected courses.
+
+__Main Flow:__
+
+1. The student logs into the CMS.
+
+2. The student navigates to the "Grades" section.
+
+3. The system displays the grades for the student's courses.
+
+__Exceptions:__ If there's a system error, the grade viewing process is halted.
+
+
+__<ins> UC 3: Upload Course Material <</ins>>__
+
+__• Name:__ Upload Course Material
+
+__• Actors:__ Lecturers
+
+__• Preconditions:__ The lecturer is assigned to a course.
+
+__• Post conditions:__ Course material is uploaded and available for students.
+
+__Main Flow:__
+
+1. The lecturer logs into the CMS.
+
+2. The lecturer navigates to their assigned course.
+
+3. The lecturer selects the option to upload course material.
+
+4. The system confirms the successful upload.
+
+__Exceptions:__ If the file size exceeds the limit, the system notifies the lecturer
+
+
+__<ins> UC 4: Manage Grades </ins>__
+
+__• Name:__ Manage Grades
+
+__• Actors:__ Lecturers
+
+__• Preconditions:__ Students have submitted assignments/exams.
+
+__• Post conditions:__ Grades are updated in the system.
+
+__Main Flow:__
+
+1. The lecturer logs into the CMS.
+
+2. The lecturer navigates to the "Grades" section of their course.
+
+3. The lecturer updates grades for assignments/exams.
+
+4. The system confirms the grade updates.
+
+__Alternative Flows:__ The lecturer can choose to calculate the final grade based on grading policy.
+
+__Exceptions:__ If there's a system error, the grade management process is halted
+
+
+__<ins> UC 5: Course Creation </ins>__
+
+__• Name:__ Manage Grades
+
+__• Actors:__ Administrators, Lecturers
+
+__• Preconditions:__ The administrator/lecturer has the necessary permissions.
+
+__• Post conditions:__ A new course is added to the CMS.
+
+__Main Flow:__
+
+1. The actor logs into the CMS.
+
+2. Navigates to the "Create Course" section.
+
+3. Inputs course details and saves.
+
+4. The system confirms the course creation.
+
+__Exceptions:__ If there's a system error, the course creation process is halted.
+
+
+__<ins> UC 6: Student Profile Management </ins>__
+
+__• Name:__ Student Profile Management
+
+__• Actors:__ Students
+
+__• Preconditions:__ The student has an account on the CMS.
+
+__• Post conditions:__ The student's profile is updated.
+
+__Main Flow:__
+
+1. The student logs into the CMS.
+
+2. Navigates to the "Profile" section.
+
+3. Edits and updates personal details.
+
+4. The system confirms the profile update.
+
+__Exceptions:__ If there's a system error, the profile update process is halted.
+
+
+__<ins> UC 7: Course Feedback and Evaluation </ins>__
+
+__• Name:__ Course Feedback and Evaluation
+
+__• Actors:__ Students
+
+__• Preconditions:__ The student has completed the course.
+
+__• Post conditions:__ Feedback is submitted.
+
+__Main Flow:__
+
+1. The student logs into the CMS.
+
+2. Navigates to the completed course.
+
+3. Submits feedback and evaluation.
+
+4. The system confirms the submission.
+
+__Exceptions:__ If there's a system error, the feedback submission process is halted.
+
+
+__<ins> UC 8: News and Announcements Posting </ins>__
+
+__• Name:__ News and Announcements Posting
+
+__• Actors:__ Lecturers, Administrators
+
+__• Preconditions:__ The actor has the necessary permissions.
+
+__• Post conditions:__ News or announcement is posted.
+
+__Main Flow:__
+
+1. The actor logs into the CMS.
+
+2. Navigates to the "News/Announcements" section.
+
+3. Creates a new post and publishes.
+
+4. The system confirms the post publication.
+
+__Exceptions:__ If there's a system error, the posting process is halted.
+
+
+__<ins> UC 9: Course Deletion </ins>__
+
+__• Name:__ Course Deletion
+
+__• Actors:__ Administrators
+
+__• Preconditions:__ The course exists in the CMS.
+
+__• Post conditions:__ The course is removed from the CMS.
+
+__Main Flow:__
+
+1. The administrator logs into the CMS.
+
+2. Navigates to the course list.
+
+3. Selects a course and opts for deletion.
+
+4. The system confirms the course deletion.
+
+__Exceptions:__ If there's a system error, the course deletion process is halted.
+
+
+__<ins> UC 10: Manage Course Schedule </ins>__
+
+__• Name:__ Manage Course Schedule
+
+__• Actors:__ Lecturers, Administrators
+
+__• Preconditions:__  The course exists in the CMS
+
+__• Post conditions:__ The course schedule is updated.
+
+__Main Flow:__
+
+1. The actor logs into the CMS.
+
+2. Navigates to the desired course.
+
+3. Edits the course schedule.
+
+4. The system confirms the schedule update.
+
+__Exceptions:__ If there's a system error, the schedule update process is halted.
+
+
+__<ins> UC 11: Manage Team Members </ins>__
+
+__• Name:__ Manage Team Members
+
+__• Actors:__ Lecturers
+
+__• Preconditions:__  The course has team-based assignments or projects.
+
+__• Post conditions:__ Team members are managed.
+
+__Main Flow:__
+
+1. The lecturer logs into the CMS.
+
+2. Navigates to the "Teams" section of the course.
+
+3. Adds or removes students from teams.
+
+4. The system confirms the team update.
+
+__Exceptions:__ If there's a system error, the team management process is halted.
+
+
+__<ins> UC 12: Password Reset Request </ins>__
+
+__• Name:__ Password Reset Request
+
+__• Actors:__ Students, Lecturers, Administrators
+
+__• Preconditions:__  The actor has an account on the CMS.
+
+__• Post conditions:__ A password reset link is sent to the actor's email.
+
+__Main Flow:__
+
+1. The actor navigates to the CMS login page.
+
+2. Clicks on "Forgot Password".
+
+3. Inputs registered email.
+
+4. The system sends a password reset link to the email.
+
+__Exceptions:__ 
+
+• If the email is not registered, the system notifies the actor.
+
+• If there's a system error, the password reset process is halted.
 
 
 
