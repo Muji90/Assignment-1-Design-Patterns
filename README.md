@@ -69,7 +69,7 @@ __Main Flow:__
 __Exceptions:__ If there's a system error, the grade viewing process is halted.
 
 
-__<ins> UC 3: Upload Course Material <</ins>>__
+__<ins> UC 3: Upload Course Material </ins>__
 
 __• Name:__ Upload Course Material
 
