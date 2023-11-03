@@ -22,7 +22,9 @@
 # file extensions to fail to load in VS. An alternative would be to treat
 # these files as binary and thus will always conflict and require user
 # intervention with every merge. To do so, just uncomment the entries below
+
 ###############################################################################
+
 #*.sln       merge=binary
 #*.csproj    merge=binary
 #*.vbproj    merge=binary
@@ -37,21 +39,27 @@
 #*.wwaproj   merge=binary
 
 ###############################################################################
+
 # behavior for image files
 #
 # image files are treated as binary by default.
+
 ###############################################################################
+
 #*.jpg   binary
 #*.png   binary
 #*.gif   binary
 
 ###############################################################################
+
 # diff behavior for common document formats
 # 
 # Convert binary document formats to text before diffing them. This feature
 # is only available from the command line. Turn it on by uncommenting the 
 # entries below.
+
 ###############################################################################
+
 #*.doc   diff=astextplain
 #*.DOC   diff=astextplain
 #*.docx  diff=astextplain
