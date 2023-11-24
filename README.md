@@ -110,3 +110,18 @@ __3.3.1. Component Descriptions and interactions:__
 | User Interface (UI) Component | Gives consumers access to an interactive interface. Includes sites for managing profiles, examining grades, and enrolling in courses.  | Gathers and presents data, interacts with the Business Logic Component, and records user input |
 | Business Logic Component  | Manages data operations, applies business rules, and processes user requests  | Checks for accuracy, handles user input, and communicates with the Data Access Component |
 | Data Access Component  | Ensures safe and effective data operations via interfaces with the database  | Handles database CRUD (Create, Read, Update, Delete) actions and provides the Business Logic Component with the results |
+
+__3.3.2. Scalability and Maintenance__
+
+• Microservices Architecture: For the Application Server, thinking about using a micro services architecture to improve scalability and maintenance-friendliness.
+
+• Database Replication: For better data availability and load dispersion, use database replication and sharding.
+
+• Continuous Integration/Continuous Deployment (CI/CD): For effective system component changes and deployment, use CI/CD pipelines.
+
+__3.3.3. Integration and Extensibility__
+
+• APIs for Integration: Create RESTful APIs for the Application Server to help with third-party service or external system integration.
+
+• Modular Design: Make sure the business logic and user interface are modular so that you can simply add more features or modify them later.
+
