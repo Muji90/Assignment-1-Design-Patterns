@@ -92,3 +92,21 @@ __3.2.2. Components and Their Interactions__
 | Web Server  | Hosts the CMS's user interface. Reaches out to the Application Server in order to receive or send data  |
 | Application Server  | Includes the business reasoning. Communicates with the Database Server, processes requests from the Web Server, and returns information  |
 | Database Server  | Retains grades, user information, course information, and other pertinent data  |
+
+__3.2.3. Security and Performance Considerations__
+
+• Web Server Security: To ensure secure data transfer, use SSL/TLS. To prevent unwanted access, make use of intrusion detection systems and firewalls.
+
+• Load Balancing: Use load balancers to split up traffic across servers in an equitable manner, guaranteeing great dependability and availability.
+
+• Caching Mechanisms: To enhance response speeds and lessen the strain on the Application Server, use caching on the Web Server.
+
+__<INS>3.3. Major Components of the Architecture</INS>__
+
+__3.3.1. Component Descriptions:__
+
+| Component  | Descriptions |
+| ------------- | ------------- |
+| User Interface (UI) Component | Gives consumers access to an interactive interface. Includes sites for managing profiles, examining grades, and enrolling in courses.  |
+| Business Logic Component  | Manages data operations, applies business rules, and processes user requests  |
+| Data Access Component  | Ensures safe and effective data operations via interfaces with the database  |
