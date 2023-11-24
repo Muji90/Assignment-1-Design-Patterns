@@ -125,3 +125,8 @@ __3.3.3. Integration and Extensibility__
 
 • Modular Design: Make sure the business logic and user interface are modular so that you can simply add more features or modify them later.
 
+__3.3.4. Disaster Recovery and Data Backup__
+
+• Regular Backups: To avoid data loss, do regular backups of the database server.
+
+• Disaster Recovery Plan: Create a disaster recovery strategy to guarantee data integrity and system availability in the event of significant events.
