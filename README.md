@@ -65,11 +65,11 @@ __3.1.2. Justification for Choice:__
 
 Web-based applications such as the CMS are a good fit for the three-tier design. It permits:
 
-• Scalability: Can easily handle an increasing number of users.
+__• Scalability:__ Can easily handle an increasing number of users.
 
-• Flexibility: Each tier can be developed and scaled independently.
+__• Flexibility:__ Each tier can be developed and scaled independently.
 
-• Security: Sensitive data in the Data tier is isolated from the Presentation tier.
+__• Security:__ Sensitive data in the Data tier is isolated from the Presentation tier.
 
 __<ins>3.2. Deployment Diagram</ins>__
 
@@ -95,11 +95,11 @@ __3.2.2. Components and Their Interactions__
 
 __3.2.3. Security and Performance Considerations__
 
-• Web Server Security: To ensure secure data transfer, use SSL/TLS. To prevent unwanted access, make use of intrusion detection systems and firewalls.
+__• Web Server Security:__ To ensure secure data transfer, use SSL/TLS. To prevent unwanted access, make use of intrusion detection systems and firewalls.
 
-• Load Balancing: Use load balancers to split up traffic across servers in an equitable manner, guaranteeing great dependability and availability.
+__• Load Balancing:__ Use load balancers to split up traffic across servers in an equitable manner, guaranteeing great dependability and availability.
 
-• Caching Mechanisms: To enhance response speeds and lessen the strain on the Application Server, use caching on the Web Server.
+__• Caching Mechanisms:__ To enhance response speeds and lessen the strain on the Application Server, use caching on the Web Server.
 
 __<INS>3.3. Major Components of the Architecture</INS>__
 
@@ -113,17 +113,17 @@ __3.3.1. Component Descriptions and interactions:__
 
 __3.3.2. Scalability and Maintenance__
 
-• Microservices Architecture: For the Application Server, thinking about using a micro services architecture to improve scalability and maintenance-friendliness.
+__• Microservices Architecture:__ For the Application Server, thinking about using a micro services architecture to improve scalability and maintenance-friendliness.
 
-• Database Replication: For better data availability and load dispersion, use database replication and sharding.
+__• Database Replication:__ For better data availability and load dispersion, use database replication and sharding.
 
-• Continuous Integration/Continuous Deployment (CI/CD): For effective system component changes and deployment, use CI/CD pipelines.
+__• Continuous Integration/Continuous Deployment (CI/CD):__ For effective system component changes and deployment, use CI/CD pipelines.
 
 __3.3.3. Integration and Extensibility__
 
-• APIs for Integration: Create RESTful APIs for the Application Server to help with third-party service or external system integration.
+__• APIs for Integration:__ Create RESTful APIs for the Application Server to help with third-party service or external system integration.
 
-• Modular Design: Make sure the business logic and user interface are modular so that you can simply add more features or modify them later.
+__• Modular Design:__ Make sure the business logic and user interface are modular so that you can simply add more features or modify them later.
 
 __3.3.4. Disaster Recovery and Data Backup__
 
@@ -133,27 +133,27 @@ __3.3.4. Disaster Recovery and Data Backup__
 
 __3.3.5. Monitoring and Logging__
 
-• System Monitoring: Track each server's health and performance using monitoring tools.
+__• System Monitoring:__ Track each server's health and performance using monitoring tools.
 
-• Logging: Establish thorough logging for auditing and troubleshooting needs.
+__• Logging:__ Establish thorough logging for auditing and troubleshooting needs.
 
 __3.3.7. Compliance and Data Privacy__
 
-• Data Protection: When processing user data, make sure that data protection laws like the GDPR are followed.
+__• Data Protection:__ When processing user data, make sure that data protection laws like the GDPR are followed.
 
-• Access Control: To protect sensitive data, put strong access control measures in place in the business logic component.
+__• Access Control:__ To protect sensitive data, put strong access control measures in place in the business logic component.
 
 __<ins>3.4. Interface Specification</ins>__
 
 __3.4.1. Internal Interfaces__
 
-• UI to Business Logic Interface: outlines the protocol for communication between the levels of business logic and user interface. This covers error-handling procedures, request/response data structures, and RESTful API endpoints.
+__• UI to Business Logic Interface:__ outlines the protocol for communication between the levels of business logic and user interface. This covers error-handling procedures, request/response data structures, and RESTful API endpoints.
 
-• Business Logic to Data Access Interface: describes the data formats and querying techniques for updating and querying the database. Data integrity restrictions, transaction management, and database query interfaces are all included in this.
+__• Business Logic to Data Access Interface:__ describes the data formats and querying techniques for updating and querying the database. Data integrity restrictions, transaction management, and database query interfaces are all included in this.
 
 __3.4.2. External Interfaces__
 
-• Third-Party Integration APIs: Describes the interfaces for integrating external services, such as authentication providers, email services, or analytics tools. This includes API endpoint URLs, request/response formats, and authentication methods.
+__• Third-Party Integration APIs:__ Describes the interfaces for integrating external services, such as authentication providers, email services, or analytics tools. This includes API endpoint URLs, request/response formats, and authentication methods.
 
 __<ins>3.5. Domain Specific Models</ins>__
 
@@ -182,19 +182,19 @@ __<ins>3.6. Architectural Diagram for Iteration 2</ins>__
 | Analytics Engine  | Analyzes data to provide insights, such as course popularity, student performance, etc  |
 | Report Generator | Creates reports based on the analytics provided by the Analytics Engine  |
 
-1. User: This represents the end-users of the CMS, such as students, instructors, and administrators. They interact directly with the CMS interface.
+__1. User:__ This represents the end-users of the CMS, such as students, instructors, and administrators. They interact directly with the CMS interface.
 
-2. CMS Interface: This is the front-end part of the system where users interact with the application. It could include web pages, forms, and other user interface elements. The CMS Interface fetches data from the database as per user requests and displays it.
+__2. CMS Interface:__ This is the front-end part of the system where users interact with the application. It could include web pages, forms, and other user interface elements. The CMS Interface fetches data from the database as per user requests and displays it.
 
-3. Database: All of the CMS's data, including user profiles, enrollment information, and course details, are stored in this component. In response to queries received from the CMS Interface, it transmits data to the Backend Server for processing.
+__3. Database:__ All of the CMS's data, including user profiles, enrollment information, and course details, are stored in this component. In response to queries received from the CMS Interface, it transmits data to the Backend Server for processing.
 
-4. Backend Server: This is the part of the server-side software that handles data that comes in from the database. It manages the application's business logic, which includes updating course information and enrolling students in classes.
+__4. Backend Server:__ This is the part of the server-side software that handles data that comes in from the database. It manages the application's business logic, which includes updating course information and enrolling students in classes.
 
-5. Analytics Engine: This part is in charge of examining the data that the Backend Server processes. It may provide information about learning objectives, course popularity, user behavior.
+__5. Analytics Engine:__ This part is in charge of examining the data that the Backend Server processes. It may provide information about learning objectives, course popularity, user behavior.
 
-6. Report Generator: The Report Generator generates reports based on the insights that are produced by the Analytics Engine. These reports may include user activity data, course statistics, or other pertinent information.
+__6. Report Generator:__ The Report Generator generates reports based on the insights that are produced by the Analytics Engine. These reports may include user activity data, course statistics, or other pertinent information.
 
-7. Data Flow: The data flow and component interactions are shown by the arrows. For instance, the CMS Interface is used by the User to interact, and this causes the Database to get data.
+__7. Data Flow:__ The data flow and component interactions are shown by the arrows. For instance, the CMS Interface is used by the User to interact, and this causes the Database to get data.
 
 __<ins>3.7. Sequence Diagrams for Iteration 2</ins>__
 
@@ -208,13 +208,13 @@ __<ins>3.7. Sequence Diagrams for Iteration 2</ins>__
 
 __<ins>3.8. Methods and Interfaces Description</ins>__
 
-• UploadMaterial(): Allows lecturers to upload new materials.
+__• UploadMaterial():__ Allows lecturers to upload new materials.
 
-• ModifyMaterial(): Enables lecturers to make changes to existing materials.
+__• ModifyMaterial():__ Enables lecturers to make changes to existing materials.
 
-• DeleteMaterial(): Grants lecturers the ability to remove materials.
+__• DeleteMaterial():__ Grants lecturers the ability to remove materials.
 
-• DownloadMaterial(): Used by students to download course materials.
+__• DownloadMaterial():__ Used by students to download course materials.
 
 __<ins>3.9. Architectural Decisions and Rationale</ins>__
 
