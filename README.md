@@ -181,3 +181,41 @@ __<ins>3.6. Architectural Diagram for Iteration 2</ins>__
 | Backend server  | Handles the business logic of the CMS, processing requests and interacting with the database  |
 | Analytics Engine  | Analyzes data to provide insights, such as course popularity, student performance, etc  |
 | Report Generator | Creates reports based on the analytics provided by the Analytics Engine  |
+
+1. User: This represents the end-users of the CMS, such as students, instructors, and administrators. They interact directly with the CMS interface.
+
+2. CMS Interface: This is the front-end part of the system where users interact with the application. It could include web pages, forms, and other user interface elements. The CMS Interface fetches data from the database as per user requests and displays it.
+
+3. Database: All of the CMS's data, including user profiles, enrollment information, and course details, are stored in this component. In response to queries received from the CMS Interface, it transmits data to the Backend Server for processing.
+
+4. Backend Server: This is the part of the server-side software that handles data that comes in from the database. It manages the application's business logic, which includes updating course information and enrolling students in classes.
+
+5. Analytics Engine: This part is in charge of examining the data that the Backend Server processes. It may provide information about learning objectives, course popularity, user behavior.
+
+6. Report Generator: The Report Generator generates reports based on the insights that are produced by the Analytics Engine. These reports may include user activity data, course statistics, or other pertinent information.
+
+7. Data Flow: The data flow and component interactions are shown by the arrows. For instance, the CMS Interface is used by the User to interact, and this causes the Database to get data.
+
+__<ins>3.7. Sequence Diagrams for Iteration 2</ins>__
+
+![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/f1e663a5-2c7d-4f91-943a-a5d6e15ebb27)
+
+| Element  | Method Description |
+| ------------- | ------------- |
+| Student | Initiates the process by requesting to view course materials  |
+| CMS  | Receives the request from the student and fetches course materials from the database  |
+| Database  | Responds to the CMS's request by returning the requested course materials  |
+
+__<ins>3.8. Methods and Interfaces Description</ins>__
+
+• UploadMaterial(): Allows lecturers to upload new materials.
+
+• ModifyMaterial(): Enables lecturers to make changes to existing materials.
+
+• DeleteMaterial(): Grants lecturers the ability to remove materials.
+
+• DownloadMaterial(): Used by students to download course materials.
+
+__<ins>3.9. Architectural Decisions and Rationale</ins>__
+
+The choice to keep the Course Material Manager and Access Controller apart guarantees a distinct division of responsibilities, improving maintainability and security. Students may use the Material Database efficiently since it is designed for speedy retrievals.
