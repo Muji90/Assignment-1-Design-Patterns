@@ -40,7 +40,20 @@ __2.4 Design Decision for Iteration 1:__
 | Comprehensive Logging and Monitoring  | Facilitates troubleshooting and auditing. Ensures system health and performance tracking.  |
 | GDPR Compliance and Robust Access Control  | Ensures data protection and privacy. Safeguards sensitive information.  |
 
-__2.5 Analysis of the Design Decisions for Iteration 1:__
+__2.5 Design Decision for Iteration 2:__
+
+| Design Decision   | Justification |
+| ------------- | ------------- |
+| Performance Optimization Techniques  | Improves system response time and efficiency. Enhances user experience  |
+| Advanced Security Measures  | Strengthens system security to protect against evolving threats. Ensures data integrity and confidentiality  |
+| User Interface Enhancements  | Improves usability and accessibility. Ensures a better user experience  |
+| Scalability Improvements  | Prepares the system for future growth in users and data. Ensures system stability under increased load  |
+| Integration of Analytics and Reporting Tools   | Provides insights into system usage and performance. Supports data-driven decisionmaking  |
+| Enhanced Testability and Quality Assurance  | Ensures the reliability and correctness of the system. Facilitates easier maintenance and updates  |
+| Compliance with Additional Standards and Regulations  | Ensures adherence to industry standards and legal requirements. Enhances trust and credibility  |
+| Implementation of Feedback Mechanisms  | Allows for continuous improvement based on user feedback. Enhances user satisfaction and engagement  |
+
+__2.6 Analysis of the Design Decisions for Iteration 1:__
 
 | Design Decision   | Analysis | Progress Status |
 | ------------- | ------------- | ------ |
@@ -53,7 +66,7 @@ __2.5 Analysis of the Design Decisions for Iteration 1:__
 | Comprehensive Logging and Monitoring  | Crucial for system health tracking and troubleshooting.  | Complete |
 | GDPR Compliance and Robust Access Control  | Ensures data privacy and security. | Complete |
 
-__2.6 Analysis of the Design Decisions for Iteration 2:__
+__2.7 Analysis of the Design Decisions for Iteration 2:__
 
 | Design Decision   | Analysis | Progress Status |
 | ------------- | ------------- | ------ |
@@ -65,6 +78,7 @@ __2.6 Analysis of the Design Decisions for Iteration 2:__
 | Testability and Quality Assurance  | Ensures system reliability and correctness  | In Progress |
 | Compliance with Additional Standards  | Adheres to industry standards and legal requirements  | In Progress |
 | Feedback Mechanisms  | Facilitates continuous improvement based on user input | In Progress |
+
 __<ins>3. ADD Iteration 1 Artifacts</ins>__
 
 __<ins>3.1. Reference Architecture</ins>__
