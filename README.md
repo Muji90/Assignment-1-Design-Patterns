@@ -31,3 +31,24 @@ __2.2. Chosen Principal Use Case Description:__
 Iteration 1: Establishing an Overall System Structure
 
 # <ins>Step 2: Establish Iteration Goal by Selecting Drivers</ins>
+
+# <ins>Step 3: Choose One or More Elements of the System to Refine</ins>
+
+# <ins>Step 4: Choose One or More Design Concepts That Satisfy the Selected Drivers</ins>
+
+| Design Decision   | Justification |
+| ------------- | ------------- |
+| Three-Tier Architecture  | Facilitates scalability, modularity, and a clear separation of concerns. Ideal for web-based applications.  |
+| Microservices for Application Server  | Enhances scalability and ease of maintenance. Allows independent development and deployment of services.  |
+| RESTful APIs for Integration  | Ensures easy integration with external systems and third-party services. Promotes interoperability.  |
+| Database Replication and Sharding  | Improves data availability and load distribution. Enhances performance and reliability.  |
+| CI/CD Pipelines   | Enables efficient deployment and updates of system components. Supports agile development practices.  |
+| Regular Data Backups and Disaster Recovery Plan  | Protects against data loss and ensures system availability in case of major incidents.  |
+| Comprehensive Logging and Monitoring  | Facilitates troubleshooting and auditing. Ensures system health and performance tracking.  |
+| GDPR Compliance and Robust Access Control  | Ensures data protection and privacy. Safeguards sensitive information.  |
+
+# <ins>Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</ins>
+
+# <ins>Step 6: Sketch Views and Record Design Decisions</ins>
+
+# <ins>Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</ins>
