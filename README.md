@@ -130,3 +130,54 @@ __3.3.4. Disaster Recovery and Data Backup__
 • Regular Backups: To avoid data loss, do regular backups of the database server.
 
 • Disaster Recovery Plan: Create a disaster recovery strategy to guarantee data integrity and system availability in the event of significant events.
+
+__3.3.5. Monitoring and Logging__
+
+• System Monitoring: Track each server's health and performance using monitoring tools.
+
+• Logging: Establish thorough logging for auditing and troubleshooting needs.
+
+__3.3.7. Compliance and Data Privacy__
+
+• Data Protection: When processing user data, make sure that data protection laws like the GDPR are followed.
+
+• Access Control: To protect sensitive data, put strong access control measures in place in the business logic component.
+
+__<ins>3.4. Interface Specification</ins>__
+
+__3.4.1. Internal Interfaces__
+
+• UI to Business Logic Interface: outlines the protocol for communication between the levels of business logic and user interface. This covers error-handling procedures, request/response data structures, and RESTful API endpoints.
+
+• Business Logic to Data Access Interface: describes the data formats and querying techniques for updating and querying the database. Data integrity restrictions, transaction management, and database query interfaces are all included in this.
+
+__3.4.2. External Interfaces__
+
+• Third-Party Integration APIs: Describes the interfaces for integrating external services, such as authentication providers, email services, or analytics tools. This includes API endpoint URLs, request/response formats, and authentication methods.
+
+__<ins>3.5. Domain Specific Models</ins>__
+
+__3.5.1. Data Models:__
+
+| Data Models  | Rationale |
+| ------------- | ------------- |
+| Course Model  | Represents the structure and attributes of a course, including course ID, name, description, and associated credits  |
+| Student Model | Defines the properties of a student, such as student ID, name, enrolled courses, and academic records  |
+| Enrollment Model  | Manages the relationship between students and courses, including enrollment status, grades, and attendance records  |
+
+__3.5.2. Entity Relationship Diagram (ERD)__
+
+• An ERD will be provided to illustrate the relationships between the different entities in the CMS. This diagram will include cardinality and key constraints to show how courses, students, and enrollments are interconnected.
+
+__<ins>3.6. Architectural Diagram for Iteration 2</ins>__
+
+![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/0fb0c553-d236-4711-8b99-2411e6b99294)
+
+| Element  | Description |
+| ------------- | ------------- |
+| User  | Represents the end-users of the CMS, such as students, lecturers, and administrators  |
+| CMS Interface  | The front-end user interface through which users interact with the CMS  |
+| Database  | Stores all the data related to courses, users, enrollments, grades, etc  |
+| Backend server  | Handles the business logic of the CMS, processing requests and interacting with the database  |
+| Analytics Engine  | Analyzes data to provide insights, such as course popularity, student performance, etc  |
+| Report Generator | Creates reports based on the analytics provided by the Analytics Engine  |
