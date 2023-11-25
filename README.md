@@ -25,3 +25,9 @@ __2.2. Chosen Principal Use Case Description:__
 | Use Case  | Actors | Description |
 | ------------- | ------------- | -----------|
 | Course Enrollment  | Students, Administrators  | This use case allows students to enroll in or drop out of courses. Administrators can also manually enroll or remove students from courses.|
+
+| Category  | Details |
+| ------------- | ------------- |
+| Design Purpose  | The design purpose is to develop a comprehensive educational management system that caters to the diverse needs of students, lecturers, administrators, and maintainers by providing course information, enabling student subscriptions, facilitating lecturer functions, supporting maintenance tasks, and allowing administrative control while adhering to specific privacy, usability, and system performance requirements.  |
+| Primary Functional Requirements  | Course Enrollment (UC 1): This fits the design purpose as it addresses the needs of both students (RS1) and administrators (RA3) by allowing students to enroll in courses through the CMS, aligning with the comprehensive educational management system's objective.  |
+| Quality Attributes   | QA 3: Usability  |
