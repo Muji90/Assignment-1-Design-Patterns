@@ -53,6 +53,18 @@ __2.5 Analysis of the Design Decisions for Iteration 1:__
 | Comprehensive Logging and Monitoring  | Crucial for system health tracking and troubleshooting.  | Complete |
 | GDPR Compliance and Robust Access Control  | Ensures data privacy and security. | Complete |
 
+__2.6 Analysis of the Design Decisions for Iteration 2:__
+
+| Design Decision   | Analysis | Progress Status |
+| ------------- | ------------- | ------ |
+| Performance Optimization  | Aims to enhance system efficiency and user experience  | In Progress |
+| Advanced Security Measures  | Addresses evolving security threats and protects data  | In Progress |
+| User Interface Enhancements  | Focuses on improving usability and accessibility  | In Progress |
+| Scalability Improvements  | Prepares the system for future growth and stability  | In Progress |
+| Analytics and Reporting Tools   | Provides valuable insights for datadriven decisions  | In Progress |
+| Testability and Quality Assurance  | Ensures system reliability and correctness  | In Progress |
+| Compliance with Additional Standards  | Adheres to industry standards and legal requirements  | In Progress |
+| Feedback Mechanisms  | Facilitates continuous improvement based on user input | In Progress |
 __<ins>3. ADD Iteration 1 Artifacts</ins>__
 
 __<ins>3.1. Reference Architecture</ins>__
