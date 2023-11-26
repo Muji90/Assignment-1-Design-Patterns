@@ -49,6 +49,19 @@ Iteration 1: Establishing an Overall System Structure
 
 # <ins>Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces</ins>
 
+__2.6 Analysis of the Design Decisions for Iteration 1:__
+
+| Design Decision   | Analysis | Progress Status |
+| ------------- | ------------- | ------ |
+| Three-Tier Architecture  | Chosen for its scalability and clear separation of concerns. Ideal for web applications.  | Complete |
+| Microservices for Application Server  | Enhances system scalability and maintenance. Allows for independent service updates  | In Progress |
+| RESTful APIs for Integration  | Facilitates easy integration and promotes interoperability.  | Complete |
+| Database Replication and Sharding  | Improves data handling and system performance  | In Progress |
+| CI/CD Pipelines   | Supports agile practices and efficient system updates.  | Complete |
+| Regular Data Backups and Disaster Recovery Plan  | Essential for data integrity and system resilience.  | Complete |
+| Comprehensive Logging and Monitoring  | Crucial for system health tracking and troubleshooting.  | Complete |
+| GDPR Compliance and Robust Access Control  | Ensures data privacy and security. | Complete |
+
 # <ins>Step 6: Sketch Views and Record Design Decisions</ins>
 
 __<ins>3.2. Deployment Diagram</ins>__
