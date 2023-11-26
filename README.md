@@ -51,4 +51,14 @@ Iteration 1: Establishing an Overall System Structure
 
 # <ins>Step 6: Sketch Views and Record Design Decisions</ins>
 
+__<ins>3.2. Deployment Diagram</ins>__
+
+__CMS Deployment Diagram:__
+
+![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/4cdaab35-1809-4138-af5f-31d25ad6b31a)
+
+__Application Deployment Diagram:__
+
+![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/b8535750-ee1e-4654-b8d9-fb20db69c542)
+
 # <ins>Step 7: Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</ins>
