@@ -297,7 +297,7 @@ The elements to be refined are below
 ### Step 6 - Sketch Views and Record Design Decisions
 Refined Domain Diagram
 
-![Refined Domain Diagram](https://github.com/SOFE3650F18/project-group-24/blob/master/Iteration%203/RefinedInitial.png)
+![image](https://github.com/Muji90/Assignment-1-Design-Patterns/assets/145510715/0e138697-905d-4870-825d-68bced9b4aa1)
 
 
 ### Step 7 - Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
